@@ -32,7 +32,7 @@ let mapleader=","
 
 " set background=dark
 " color badwolf
-set background=light
+set background=dark
 colorscheme solarized
 
 set laststatus=2 "Always show statusline
