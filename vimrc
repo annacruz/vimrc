@@ -25,6 +25,7 @@ Plugin 'sjl/badwolf'
 Plugin 'cohama/lexima.vim'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'powerline/powerline'
+Plugin 'gkjgh/cobalt'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
