@@ -32,6 +32,7 @@ Plugin 'posva/vim-vue'
 Plugin 'tpope/vim-fugitive'
 Plugin 'rking/ag.vim'
 Plugin 'gagoar/StripWhiteSpaces'
+Plugin 'digitaltoad/vim-pug'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
