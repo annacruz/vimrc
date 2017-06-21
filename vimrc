@@ -33,6 +33,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'rking/ag.vim'
 Plugin 'gagoar/StripWhiteSpaces'
 Plugin 'digitaltoad/vim-pug'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
