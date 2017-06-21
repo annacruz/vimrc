@@ -26,6 +26,12 @@ Plugin 'cohama/lexima.vim'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'powerline/powerline'
 Plugin 'gkjgh/cobalt'
+Plugin 'pangloss/vim-javascript'
+Plugin 'crusoexia/vim-javascript-lib'
+Plugin 'posva/vim-vue'
+Plugin 'tpope/vim-fugitive'
+Plugin 'rking/ag.vim'
+Plugin 'gagoar/StripWhiteSpaces'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
