@@ -69,6 +69,7 @@ set ignorecase
 set smartcase
 set wildmenu    " visual autocomplete for command menu
 set showmatch    " highlight matching [{()}]
+set wildignore+=*/tmp/*,*/_site/*,*/bower_components/*,*/node_modules/*,*.so,*.swp,*.zip,*/.git/*,*/coverage/*
 
 
 " Remaping and configuring Gundo
