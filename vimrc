@@ -34,6 +34,9 @@ Plugin 'rking/ag.vim'
 Plugin 'gagoar/StripWhiteSpaces'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'tpope/vim-surround'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'klen/python-mode'
+Plugin 'airblade/vim-gitgutter'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -140,6 +143,7 @@ let g:lexima_enable_endwise_rules = 1
 
 " NERDTree
 nmap <leader>n :NERDTreeToggle<CR>
+nmap <leader>f :NERDTreeFind<CR>
 let NERDTreeHighlightCursorline=1
 let NERDTreeIgnore = ['tmp', '.yardoc', 'pkg']
 
