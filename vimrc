@@ -38,6 +38,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'klen/python-mode'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'mhinz/vim-startify'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
