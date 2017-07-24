@@ -99,12 +99,6 @@ let g:lexima_enable_basic_rules = 1
 let g:lexima_enable_newline_rules = 1
 let g:lexima_enable_endwise_rules = 1
 
-" NERDTree
-nmap <leader>n :NERDTreeToggle<CR>
-nmap <leader>f :NERDTreeFind<CR>
-let NERDTreeHighlightCursorline=1
-let NERDTreeIgnore = ['tmp', '.yardoc', 'pkg']
-
 " Syntastic
 let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
 let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
@@ -115,34 +109,11 @@ let g:ctrlp_match_window = 'bottom,order-ttb'
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
 
-" Go programming
-au FileType go nmap <leader>r <Plug>(go-run)
-au FileType go nmap <leader>b <Plug>(go-build)
-au FileType go nmap <leader>t <Plug>(go-test)
-au FileType go nmap <leader>c <Plug>(go-coverage)
-let g:go_highlight_functions = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_structs = 1
-let g:go_highlight_interfaces = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_build_constraints = 1
-let g:go_fmt_command = "goimports"
-
 " Quit with :Q
 command -nargs=0 Quit :qa!
 
 " Emmet
 let g:user_emmet_expandabbr_key='emm'
-
-" Python mode
-let g:pymode_rope_goto_definition_bind = '<C-]>'
-let g:pymode_rope_goto_definition_cmd = 'vnew'
-let g:pymode_lint_ignore = "E501,W"
-let g:pymode_rope_complete_on_dot = 0
-let g:pymode_rope_completion_bind = '<C-Space>'
-let g:pymode_motion = 1
-let g:pymode_doc = 0
-let g:pymode_virtualenv = 1
 
 " Some cool remaps
 
