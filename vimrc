@@ -3,7 +3,7 @@ filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
 set rtp+=~/.local/lib/python-2.7/site-packages/powerline/bindings/vim/
-set rtp+=~/vim-yui/
+set rtp+=~/vim-config/
 call vundle#begin()
 
 " let Vundle manage Vundle, required
