@@ -13,7 +13,9 @@ set modelines=0
 set shiftwidth=2
 set clipboard=unnamed
 set synmaxcol=128
-set ttyscroll=10
+if !has('nvim')
+  set ttyscroll=10
+endif
 set encoding=utf8
 set guifont=Inconsolata\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
 set tabstop=4   " number of visual spaces per TAB
@@ -108,9 +110,6 @@ nnoremap <silent> t :CtrlP<cr>
 let g:ctrlp_match_window = 'bottom,order-ttb'
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
-
-" Quit with :Q
-command -nargs=0 Quit :qa!
 
 " Emmet
 let g:user_emmet_expandabbr_key='emm'

@@ -11,7 +11,9 @@ set modelines=0
 set shiftwidth=2
 set clipboard=unnamed
 set synmaxcol=128
-set ttyscroll=10
+if !has('nvim')
+  set ttyscroll=10
+endif
 set encoding=utf8
 set guifont=Inconsolata\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
 set tabstop=4   " number of visual spaces per TAB
