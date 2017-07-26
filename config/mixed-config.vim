@@ -135,8 +135,5 @@ map <silent> <F3> :ccl<CR>
 " Search through buffers
 noremap <F5> :CtrPBuffer<CR>
 
-" Set relative numbers on
-noremap <F7> :set relativenumber<CR>
-
-" Set relative number off
-noremap <F8> :set norelativenumber<CR>
+" Toggle relative numbers
+noremap <F7> :set relativenumber!<CR>
