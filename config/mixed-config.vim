@@ -109,3 +109,4 @@ noremap <F7> :set relativenumber!<cr>
 
 " Reload file
 map <F5> :e!<cr>
+
