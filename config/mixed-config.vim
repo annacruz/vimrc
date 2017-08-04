@@ -34,12 +34,8 @@ set showmatch    " highlight matching [{()}]
 set wildignore+=*/tmp/*,*/_site/*,*/bower_components/*,*/node_modules/*,*.so,*.swp,*.zip,*/.git/*,*/coverage/*
 
 
-" Remaping and configuring Gundo
-nnoremap <leader>u :GundoToggle<CR>
-let g:gundo_preview_height = 40
-
 " Cleaning highlighted searches
-nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <silent><leader><space> :nohlsearch<CR>
 
 " Automatic formatting
 autocmd BufWritePre *.rb :%s/\s\+$//e
@@ -76,17 +72,6 @@ nmap <leader>s<down>   :rightbelow new<cr>
 " Tab between buffers
 noremap <tab> <c-w><c-w>
 
-" Switch between last two buffers
-nnoremap <leader><leader> <C-^>
-
-" Resize buffers
-if bufwinnr(1)
-  nmap Ä <C-W><<C-W><
-  nmap Ö <C-W>><C-W>>
-  nmap ö <C-W>-<C-W>-
-  nmap ä <C-W>+<C-W>+
-endif
-
 " Vim-airline
 let g:airline_powerline_fonts = 1
 
@@ -98,10 +83,6 @@ let g:webdevicons_enable_nerdtree = 1
 let g:lexima_enable_basic_rules = 1
 let g:lexima_enable_newline_rules = 1
 let g:lexima_enable_endwise_rules = 1
-
-" Syntastic
-let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
-let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 
 " CtrlP
 nnoremap <silent> t :CtrlP<cr>
@@ -135,8 +116,5 @@ map <silent> <F3> :ccl<CR>
 " Search through buffers
 noremap <F5> :CtrPBuffer<CR>
 
-" Set relative numbers on
-noremap <F7> :set relativenumber<CR>
-
-" Set relative number off
-noremap <F8> :set norelativenumber<CR>
+" Toggle relative numbers
+noremap <F7> :set relativenumber!<CR>
