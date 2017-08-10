@@ -72,9 +72,6 @@ nmap <leader>s<down>   :rightbelow new<cr>
 " Tab between buffers
 noremap <tab> <c-w><c-w>
 
-" Vim-airline
-let g:airline_powerline_fonts = 1
-
 " Vim-webdevicons
 let g:webdevicons_enable = 1
 let g:webdevicons_enable_nerdtree = 1
@@ -84,19 +81,13 @@ let g:lexima_enable_basic_rules = 1
 let g:lexima_enable_newline_rules = 1
 let g:lexima_enable_endwise_rules = 1
 
-" CtrlP
-nnoremap <silent> t :CtrlP<cr>
-let g:ctrlp_match_window = 'bottom,order-ttb'
-let g:ctrlp_switch_buffer = 0
-let g:ctrlp_working_path_mode = 0
-
-" Quit with :Q
-command -nargs=0 Quit :qa!
-
 " Emmet
 let g:user_emmet_expandabbr_key='emm'
 
 " Some cool remaps
+
+" Quit with :Q
+command -nargs=0 Quit :qa!
 
 " Copy filename to buffer
 noremap <silent>+ :let @*=@%<CR>
@@ -111,10 +102,10 @@ noremap Y y$
 vnoremap y myy`y
 
 " Close quickfix window
-map <silent> <F3> :ccl<CR>
-
-" Search through buffers
-noremap <F5> :CtrPBuffer<CR>
+map <silent> <F3> :ccl<cr>
 
 " Toggle relative numbers
-noremap <F7> :set relativenumber!<CR>
+noremap <F7> :set relativenumber!<cr>
+
+" Reload file
+map <F5> :e!<cr>
