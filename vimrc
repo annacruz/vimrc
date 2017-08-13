@@ -15,6 +15,8 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'antlypls/vim-colors-codeschool'
 Plugin 'sjl/badwolf'
 Plugin 'gkjgh/cobalt'
+Plugin 'noahfrederick/vim-noctu'
+Plugin 'noahfrederick/vim-hemisu'
 
 Plugin 'tpope/vim-sensible' " Basic config
 Plugin 'vim-airline/vim-airline' " Status bar

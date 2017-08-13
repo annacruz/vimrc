@@ -3,7 +3,7 @@ let mapleader=","
 " set background=dark
 " color badwolf
 set background=dark
-colorscheme jellybeans
+colorscheme hemisu
 
 set laststatus=2 "Always show statusline
 set t_Co=256
