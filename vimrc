@@ -17,6 +17,7 @@ Plugin 'sjl/badwolf'
 Plugin 'gkjgh/cobalt'
 Plugin 'noahfrederick/vim-noctu'
 Plugin 'noahfrederick/vim-hemisu'
+Plugin 'dracula/vim'
 
 Plugin 'tpope/vim-sensible' " Basic config
 Plugin 'vim-airline/vim-airline' " Status bar
