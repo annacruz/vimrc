@@ -118,3 +118,6 @@ nnoremap <leader>ov :vsplit ~/vim-config<cr>
 
 " Reload vim configuration
 nnoremap <leader>rc :source ~/vim-config/vimrc<cr>
+
+" Open last buffer.
+nnoremap <Space><Space> <C-^>
