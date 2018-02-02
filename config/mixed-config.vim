@@ -108,10 +108,10 @@ vnoremap y myy`y
 map <silent> <F3> :ccl<cr>
 
 " Toggle relative numbers
-noremap <F7> :set relativenumber!<cr>
+noremap <leader>r :set relativenumber!<cr>
 
 " Reload file
-map <F5> :e!<cr>
+noremap <c-r> :e!<cr>
 
 " Open vim configuration directory easyly
 nnoremap <leader>ov :vsplit ~/vim-config<cr>
