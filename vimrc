@@ -37,6 +37,7 @@ Plug 'roman/golden-ratio' " Auto resize opened window
 Plug 'greyblake/vim-preview' " Preview html and markdown files
 Plug 'w0rp/ale' " Auto linting when typing
 Plug 'craigemery/vim-autotag' " Auto update ctags
+Plug 'fatih/vim-go' " Go language vim plugin
 
 call plug#end()            " required
 filetype plugin indent on    " required
