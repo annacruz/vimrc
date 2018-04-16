@@ -7,7 +7,7 @@ colorscheme dracula
 
 set laststatus=2 "Always show statusline
 set t_Co=256
-set shell=zsh
+set shell=/bin/bash
 set cursorline    " highlight current line
 set modelines=0
 set shiftwidth=2
