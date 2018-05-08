@@ -89,9 +89,6 @@ let g:user_emmet_expandabbr_key='emm'
 
 " Some cool remaps
 
-" Quit with :Q
-command -nargs=0 Quit :qa!
-
 " Copy filename to buffer
 noremap <silent>+ :let @*=@%<CR>
 
@@ -121,3 +118,32 @@ nnoremap <leader>rc :source ~/vim-config/vimrc<cr>
 
 " Open last buffer.
 nnoremap <Space><Space> <C-^>
+
+" Easily create a new tab.
+noremap <Leader>tN :tabnew<CR>
+
+" Easily close a tab.
+noremap <Leader>tc :tabclose<CR>
+
+" Easily move a tab.
+noremap <Leader>tm :tabmove<CR>
+
+" Easily go to next tab.
+noremap <Leader>tn :tabnext<CR>
+
+" Easily go to previous tab.
+noremap <Leader>tp :tabprevious<CR>
+
+" Switch between tabs
+nnoremap <Leader>1 1gt
+nnoremap <Leader>2 2gt
+nnoremap <Leader>3 3gt
+nnoremap <Leader>4 4gt
+nnoremap <Leader>5 5gt
+nnoremap <Leader>6 6gt
+nnoremap <Leader>7 7gt
+nnoremap <Leader>8 8gt
+nnoremap <Leader>9 9gt
+
+" Quit with :Q
+command -nargs=0 Quit :qa!
