@@ -37,6 +37,7 @@ Plug 'roman/golden-ratio' " Auto resize opened window
 Plug 'greyblake/vim-preview' " Preview html and markdown files
 Plug 'w0rp/ale' " Auto linting when typing
 Plug 'fatih/vim-go' " Go language vim plugin
+Plug 'wakatime/vim-wakatime' " Waka time plugin
 
 call plug#end()            " required
 filetype plugin indent on    " required
