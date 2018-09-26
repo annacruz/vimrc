@@ -21,7 +21,6 @@ Plug 'vim-airline/vim-airline' " Status bar
 Plug 'sheerun/vim-polyglot' " Multiple syntax highlight
 Plug 'scrooloose/nerdtree' " Explore project
 Plug 'ctrlpvim/ctrlp.vim' " Fuzzy finder by filename
-Plug 'terryma/vim-multiple-cursors'
 Plug 'mattn/emmet-vim'
 Plug 'cohama/lexima.vim' " Autoclose parenthesis, brackets etc
 Plug 'ryanoasis/vim-devicons' " Cool icons ;D
@@ -35,9 +34,15 @@ Plug 'mhinz/vim-startify' " Startscreen
 Plug 'easymotion/vim-easymotion' " Move smoothly through words
 Plug 'roman/golden-ratio' " Auto resize opened window
 Plug 'greyblake/vim-preview' " Preview html and markdown files
-Plug 'w0rp/ale' " Auto linting when typing
+"Plug 'w0rp/ale' " Auto linting when typing
 Plug 'fatih/vim-go' " Go language vim plugin
 Plug 'wakatime/vim-wakatime' " Waka time plugin
+Plug 'elzr/vim-json' " Better json visualization
+Plug 'moll/vim-node' " Better node edition
+Plug 'pangloss/vim-javascript'
+Plug 'crusoexia/vim-javascript-lib'
+Plug 'vim-syntastic/syntastic'
+Plug 'mtscout6/syntastic-local-eslint.vim' " Prefer local eslint over syntastic one
 
 call plug#end()            " required
 filetype plugin indent on    " required
