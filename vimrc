@@ -25,7 +25,7 @@ Plug 'mattn/emmet-vim'
 Plug 'cohama/lexima.vim' " Autoclose parenthesis, brackets etc
 Plug 'ryanoasis/vim-devicons' " Cool icons ;D
 Plug 'tpope/vim-fugitive' " Git integration
-Plug 'rking/ag.vim' " Fuzzy finder by expression
+"Plug 'rking/ag.vim' " Fuzzy finder by expression
 Plug 'gagoar/StripWhiteSpaces' " Delete white spaces before save
 Plug 'tpope/vim-surround' " Surround expressions with (, [ etc
 Plug 'klen/python-mode' " Lots of bindings to python
@@ -43,6 +43,9 @@ Plug 'pangloss/vim-javascript'
 Plug 'crusoexia/vim-javascript-lib'
 Plug 'vim-syntastic/syntastic'
 Plug 'mtscout6/syntastic-local-eslint.vim' " Prefer local eslint over syntastic one
+Plug 'ternjs/tern_for_vim' "Code analysis engine for javascript
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
 
 call plug#end()            " required
 filetype plugin indent on    " required
