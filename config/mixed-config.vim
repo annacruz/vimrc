@@ -72,18 +72,6 @@ nmap <leader>s<down>   :rightbelow new<cr>
 " Tab between buffers
 noremap <tab> <c-w><c-w>
 
-" Vim-webdevicons
-let g:webdevicons_enable = 1
-let g:webdevicons_enable_nerdtree = 1
-
-" Lexima
-let g:lexima_enable_basic_rules = 1
-let g:lexima_enable_newline_rules = 1
-let g:lexima_enable_endwise_rules = 1
-
-" Emmet
-let g:user_emmet_expandabbr_key='emm'
-
 " Some cool remaps
 
 " Copy filename to buffer
