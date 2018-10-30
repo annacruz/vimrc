@@ -46,6 +46,7 @@ Plug 'mtscout6/syntastic-local-eslint.vim' " Prefer local eslint over syntastic 
 Plug 'ternjs/tern_for_vim' "Code analysis engine for javascript
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
+Plug 'editorconfig/editorconfig-vim'
 
 call plug#end()            " required
 filetype plugin indent on    " required
