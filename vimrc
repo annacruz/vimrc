@@ -34,14 +34,14 @@ Plug 'mhinz/vim-startify' " Startscreen
 Plug 'easymotion/vim-easymotion' " Move smoothly through words
 Plug 'roman/golden-ratio' " Auto resize opened window
 Plug 'greyblake/vim-preview' " Preview html and markdown files
-"Plug 'w0rp/ale' " Auto linting when typing
+Plug 'w0rp/ale' " Auto linting when typing
 Plug 'fatih/vim-go' " Go language vim plugin
 Plug 'wakatime/vim-wakatime' " Waka time plugin
 Plug 'elzr/vim-json' " Better json visualization
 Plug 'moll/vim-node' " Better node edition
 Plug 'pangloss/vim-javascript'
 Plug 'crusoexia/vim-javascript-lib'
-Plug 'vim-syntastic/syntastic'
+"Plug 'vim-syntastic/syntastic'
 Plug 'mtscout6/syntastic-local-eslint.vim' " Prefer local eslint over syntastic one
 Plug 'ternjs/tern_for_vim' "Code analysis engine for javascript
 Plug '/usr/local/opt/fzf'
