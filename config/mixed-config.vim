@@ -11,7 +11,7 @@ set shell=/bin/bash
 set cursorline    " highlight current line
 set modelines=0
 set shiftwidth=2
-set clipboard=unnamed
+set clipboard=unnamedplus
 set synmaxcol=128
 set ttyscroll=10
 set encoding=utf8
