@@ -13,7 +13,6 @@ set modelines=0
 set shiftwidth=2
 set clipboard=unnamedplus
 set synmaxcol=128
-set ttyscroll=10
 set encoding=utf8
 set guifont=Inconsolata\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
 set tabstop=4   " number of visual spaces per TAB
