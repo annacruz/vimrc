@@ -134,3 +134,6 @@ nnoremap <Leader>9 9gt
 
 " Quit with :Q
 command -nargs=0 Quit :qa!
+
+" Toggle hightlight ocurrencies of the current word
+nnoremap <Leader>m :VimCurrentWordToggle
