@@ -11,7 +11,8 @@ set shell=/bin/bash
 set cursorline    " highlight current line
 set modelines=0
 set shiftwidth=2
-set clipboard=unnamedplus
+" set clipboard=unnamedplus
+" set mouse=r
 set synmaxcol=128
 set encoding=utf8
 set guifont=Inconsolata\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
