@@ -1,6 +1,7 @@
 let g:ale_linters = {
 \   'javascript': ['eslint'],
 \   'c':['clang'],
+\   'ruby': ['rubocop'],
 \}
 
 let g:ale_fixers = {
@@ -13,5 +14,6 @@ let g:ale_open_list = 0
 let g:ale_fix_on_save = 1
 let g:ale_set_highlights = 1
 let g:ale_completion_enabled = 1
+let g:ale_lineters_explicit = 1
 
 
