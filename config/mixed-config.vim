@@ -11,7 +11,7 @@ set shell=/bin/bash
 set cursorline    " highlight current line
 set modelines=0
 set shiftwidth=2
-" set clipboard=unnamedplus
+set clipboard=unnamed
 " set mouse=r
 set synmaxcol=128
 set encoding=utf8
@@ -138,3 +138,6 @@ command -nargs=0 Quit :qa!
 
 " Toggle hightlight ocurrencies of the current word
 nnoremap <Leader>m :VimCurrentWordToggle
+
+" copy file to clipboard
+vnoremap cp :w !pbcopy<CR><CR>

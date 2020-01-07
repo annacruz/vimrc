@@ -49,6 +49,10 @@ Plug 'junegunn/fzf.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'dominikduda/vim_current_word'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-endwise'
+Plug 'thoughtbot/vim-rspec'
 
 call plug#end()            " required
 filetype plugin indent on    " required
