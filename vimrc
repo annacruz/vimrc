@@ -25,11 +25,9 @@ Plug 'mattn/emmet-vim'
 Plug 'cohama/lexima.vim' " Autoclose parenthesis, brackets etc
 Plug 'ryanoasis/vim-devicons' " Cool icons ;D
 Plug 'tpope/vim-fugitive' " Git integration
-"Plug 'rking/ag.vim' " Fuzzy finder by expression
 Plug 'gagoar/StripWhiteSpaces' " Delete white spaces before save
 Plug 'tpope/vim-surround' " Surround expressions with (, [ etc
 Plug 'klen/python-mode' " Lots of bindings to python
-Plug 'airblade/vim-gitgutter' " Git status on left of file
 Plug 'mhinz/vim-startify' " Startscreen
 Plug 'easymotion/vim-easymotion' " Move smoothly through words
 Plug 'roman/golden-ratio' " Auto resize opened window
@@ -41,7 +39,6 @@ Plug 'elzr/vim-json' " Better json visualization
 Plug 'moll/vim-node' " Better node edition
 Plug 'pangloss/vim-javascript'
 Plug 'crusoexia/vim-javascript-lib'
-"Plug 'vim-syntastic/syntastic'
 Plug 'mtscout6/syntastic-local-eslint.vim' " Prefer local eslint over syntastic one
 Plug 'ternjs/tern_for_vim' "Code analysis engine for javascript
 Plug '/usr/local/opt/fzf'

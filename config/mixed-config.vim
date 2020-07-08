@@ -1,7 +1,5 @@
 let mapleader=","
 
-" set background=dark
-" color badwolf
 set background=dark
 colorscheme dracula
 
@@ -12,10 +10,8 @@ set cursorline    " highlight current line
 set modelines=0
 set shiftwidth=2
 set clipboard=unnamed
-" set mouse=r
 set synmaxcol=128
 set encoding=utf8
-set guifont=Inconsolata\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
 set tabstop=4   " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in TAB when editing
 set expandtab    " tabs are spaces
