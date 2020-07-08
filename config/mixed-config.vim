@@ -81,7 +81,7 @@ noremap s :w<CR>
 noremap Y y$
 
 " Yank without jank
-vnoremap y myy`y
+" vnoremap y myy`y
 
 " Open quickfix window
 map <silent> <F2> :copen<cr>
