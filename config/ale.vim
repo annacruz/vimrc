@@ -6,6 +6,7 @@ let g:ale_linters = {
 
 let g:ale_fixers = {
 \   'javascript': ['eslint'],
+\   'python': ['black', 'isort']
 \}
 
 let g:ale_set_loclist = 0
