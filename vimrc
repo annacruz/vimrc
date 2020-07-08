@@ -16,6 +16,7 @@ Plug 'noahfrederick/vim-noctu'
 Plug 'noahfrederick/vim-hemisu'
 Plug 'dracula/vim'
 
+" Other plugins
 Plug 'tpope/vim-sensible' " Basic config
 Plug 'vim-airline/vim-airline' " Status bar
 Plug 'sheerun/vim-polyglot' " Multiple syntax highlight
@@ -50,6 +51,7 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
 Plug 'thoughtbot/vim-rspec'
+Plug 'luochen1990/rainbow' "Rainbow parentesis
 
 call plug#end()            " required
 filetype plugin indent on    " required

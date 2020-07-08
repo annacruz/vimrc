@@ -28,6 +28,7 @@ set smartcase
 set wildmenu    " visual autocomplete for command menu
 set showmatch    " highlight matching [{()}]
 set wildignore+=*/tmp/*,*/_site/*,*/bower_components/*,*/node_modules/*,*.so,*.swp,*.zip,*/.git/*,*/coverage/*
+set colorcolumn=100
 
 
 " Cleaning highlighted searches
@@ -137,3 +138,6 @@ nnoremap <Leader>m :VimCurrentWordToggle
 
 " copy file to clipboard
 vnoremap cp :w !pbcopy<CR><CR>
+
+" save on focus lost
+au FocusLost * :wa
