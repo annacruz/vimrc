@@ -3,6 +3,7 @@ let mapleader=","
 set background=dark
 colorscheme dracula
 
+set encoding=UTF-8
 set laststatus=2 "Always show statusline
 set t_Co=256
 set shell=/bin/bash
